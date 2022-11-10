@@ -1,0 +1,266 @@
+@font-face {
+    font-family:dana ;
+    src: url('/fonts/dana-bold.ttf')
+}
+
+@font-face {
+    font-family: irannum;
+    src: url('/fonts/IRANSans\(FaNum\).ttf');
+}
+
+
+* {
+    list-style-type: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.bg-image-left{
+    background-image: url('/image/bg-header-icons.png');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    width: 1530px;
+    height: 930px;
+    position: relative;
+}
+
+.biq-bg-header{
+    top: 17px;
+    position: relative;
+    right: 150px;
+}
+
+
+.menubar{
+    margin-right: 240px;
+    margin-top: 11px;
+}
+
+.menubar ul li{
+    padding: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menubar ul img{
+    position: absolute;
+    right: 10px;
+    top: 14px;
+}
+
+.bt1{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.bt2{
+    background-color: rgb(37, 34, 34);
+    color: white;
+    border-radius: 10px;
+}
+
+.bt2:hover{
+    color: white;
+}
+
+.search-icon{
+ position: relative;
+}
+
+.icon{
+    position: absolute;
+    top: 2px;
+    right: -62px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.circle{
+    padding-left:4px ;
+    padding-right: 4px;
+    border-radius: 6px;
+}
+
+.search-button{
+    position: absolute;
+    left: 40px;
+    top: 1px;
+    
+}
+
+
+#btn-content-right{
+font-size: small;
+padding: 9px 16px;
+border-radius: 10px;
+box-shadow: rgb(253, 197, 54) 0px 0px 1px 1px;
+margin-top: 20px;
+font-weight: 700;
+}
+
+#btn-content-left{
+    font-size: small;
+    padding: 9px 16px;
+    background-color: rgba(236, 247, 248, 0.377);
+    border-radius: 10px;
+    margin-top: 19px;
+}
+
+.header-box{
+    position: relative;
+}
+
+.content-text button {
+    border-radius: 10px;
+    color:rgb(255, 209, 2);
+    background-color: rgb(37, 34, 34);
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.content-text button:hover,.button-near-cards:hover {
+    color: rgb(255, 209, 2);
+
+}
+
+.button-near-cards{
+      border-radius: 10px;
+      color:rgb(255, 209, 2);
+      background-color: rgb(37, 34, 34);
+      font-size: 12px;
+      border-radius: 10px;
+      padding: 10px 20px 10px 20px;
+}
+
+.content-box{
+    border-radius: 80px 0px 0px 80px;
+}
+
+.content-product{
+    position: relative;
+    border-radius: 20px;
+    
+}
+
+.spn{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-radius: 0px 10px 10px 10px;
+    background-color: red;
+    color: white;
+    padding: 2px 3px 2px 3px;
+    font-weight: bold;
+}
+
+.spn-new {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-radius: 0px 10px 10px 10px;
+    background-color:rgb(253, 188, 23);
+    color: black;
+    padding: 2px 4px 4px 4px;
+    font-weight: bold;
+}
+
+
+.heart{
+    float: left;
+}
+
+.bag-shop{
+    background-color: black;
+    float: left;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.last-card{
+    position: absolute;
+    left: -50px;
+    
+}
+
+.bg-image-sp{
+    background-image: url('/image/bg-img.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    border-radius: 50px 0px 0px 50px;
+    height: 500px;
+}
+
+.header-box{
+    background-image: url('/image/bg-image-left.png');
+}
+
+.bg-image-baner{
+    background-image: url('/image/baner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 160px;
+}
+
+.special-discount{
+    background-color: rgb(253, 197, 54);
+    padding: 0px 5px 5px 5px;
+    border-radius: 13px;
+    font-weight: 800;
+}
+
+.btn-left-baner{
+     background-color: rgb(253, 197, 54);
+     padding: 13px;
+    border-radius: 13px;
+       position: absolute;
+       left: 75px;
+       top: 5px;
+}
+
+.product-carousell ul li:hover {
+text-shadow: lightgray 10px;
+}
+
+.bg-image-product-right{
+    background-image: url('/image/right-product.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    width: 330px;
+    height: 380px;
+}
+
+.bg-footer{
+    background-image: url('/image/bg-footer.png');
+    background-repeat: no-repeat;
+    padding: 185px;
+}
+
+.about-us{
+    margin: 100px 130px 70px 0px;
+}
+
+.important-links{
+    margin: 100px 100px 70px 0px;
+    
+}
+
+.trust-us{
+    margin: 100px 0px 0px 0px;
+}
+
+.footer-top{
+    width: 90%;
+    margin-right: 85px  ;
+    border-radius: 20px;
+    position: absolute;
+    top: -50px;
+    
+}
+
+.footer-top i{
+    margin: 10px 10px 0px 10px;
+}
+
